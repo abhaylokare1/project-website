@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main{
+    width: 100%;
+    /* display: flex; */
+}
+nav{
+    background-color: rgb(16, 40, 34);
+    height: 60px;
+    align-items: center;
+}
+.nav-link{
+    color: white !important;
+    text-decoration: none
+}
+.nav-link:hover{
+    text-decoration: none !important;
+    color: white;
+    background: linear-gradient(to right, rgb(16, 40, 34),rgb(25, 63, 54),rgb(16, 40, 34) );
+
+}
+.contact-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.div-left{
+    width: 100%;
+    /* display: none; */
+}
+.div-right{
+    width: 100%;
+    margin-top: 10%;
+    padding: 5%;
+
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.main-div{
+    height: 100vh;
+}
+
+.div-left{
+    display: none;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+@media (min-width : 768px){
+    .contact-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    }
+    .div-left{
+        width: 100%;
+        /* display: none; */
+        
+    }
+    .div-right{
+        width: 100%;
+        margin-top: 5%;
+        padding: 5%;
+
+    }
+    .div-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+}
+
+@media (min-width : 1024px){
+    .contact-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    }
+    .main-div{
+        display: flex;
+    }
+    .div-left{
+        display: block;
+        width: 50%;
+        background-size: cover;
+        padding: 5%;
+        margin-top: 3%;
+    }
+    img{
+        background-size: cover;
+        padding: 10%;
+        width: 100%;
+    }
+    .div-right{
+        width: 50%;
+        margin-top: 5%;
+        padding: 5%;
+       
+
+    }
+
+    
+    .div-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+}
+
+@media (min-width : 1280px){ 
+    .contact-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    }
+    .main-div{
+        display: flex;
+        
+    }
+    .div-left{
+        display: inline-block;
+        width: 50%;
+        background-size: cover;
+
+    }
+    img{
+        background-size: cover;
+        padding: 15%;
+        width: 100%;
+    }
+    .div-right{
+        width: 50%;
+        margin-top: 5%  ;
+        padding: 5%;
+       
+
+    }
+    .div-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+}
