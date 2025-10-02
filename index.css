@@ -121,7 +121,7 @@ footer{
         }
     .banner-text{
         color: rgb(255, 255, 255);
-        font-size: 80px;
+        font-size: 75px;
         animation-name: anim;
         animation-duration: 2s;
         max-width: 80%; 
